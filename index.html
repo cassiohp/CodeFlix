@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=20">
         <link rel="stylesheet" href="style/main.css">
 
+        <!--responsive-->
+        <link rel="stylesheet" href="style/responsive.css">
+
         <!--owl css-->
         <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
         <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
@@ -14,12 +17,12 @@
     <body>
         <header>
             <div class="container">
-               <h2 class="logo">CODEFLIX</h2>
+               <h2 class="logo"><img src="img/LOGOCODEFLIX.png" width="120" height="40"></h2>
                <nav>
                     <a href="#">Inicio</a>
-                    <a href="#">Podcasts</a>
-                    <a href="#">Aulas</a>
-                    <a href="#">Dicas</a>
+                    <a href="#aulas">Aulas</a>
+                    <a href="#podcasts">Podcasts</a>
+                    <a href="#dicas">Dicas</a>
                 </nav>
             </div>
         </header>
@@ -27,41 +30,129 @@
         <main>
             <div class="aula-principal">
                 <div class="container">
-                    <h3 class="titulo">CURSO DE PYTHON</h3>
-                    <p class="descricao">Você está pensando em ser um Programador e não sabe por onde começar? Pois nessa aula vamos te dar todas as informações e mostrar o caminho a seguir.</p>
+                    
+                    <h3 class="titulo"><img src="img/reactlogo.png" width="50" height="40"> CURSO REACT</h3>
+                    <p class="descricao">Neste vídeo você vai conhecer o projeto que vamos desenvolver no curso de React e também aprender o que é e para que é utilizado o React, a biblioteca JavaScript mais utilizada da atualidade.</p>
                     <div class="botoes">
                         <button role="button" class="botao">
                             <i class="fa-solid fa-play"></i>
+                            <a href="https://youtu.be/FXqX7oof0I4?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO" target="blank">
                             ASSITIR AGORA
+                            </a>
                         </button>
                         <button role="button" class="botao">
                             <i class="fa-solid fa-circle-info"></i>
-                            MAIS INFORMAÇÕES
+                            <a href="https://www.youtube.com/channel/UCDoFiMhpOnLFq1uG4RL4xag" target="blank">
+                            SOBRE O AUTOR
+                            </a>
                         </button>
                     </div>
                 </div>
             </div>
         </main>
 
-        <div class="carrosel-aulas">
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <img class="box-aula" src="img/miniaturajava.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-aula" src="img/miniaturajs.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-aula" src="img/miniaturareact.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-aula" src="img/miniaturarpi.jpg" alt="" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-aula" src="img/miniaturatype.jpg" alt="" srcset="">
+        <section id="aulas">
+            <div class="carrossel-aulas">
+                <h4>Aulas recomendadas</h4>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=vJt_K1bFUeA" target="blank">
+                            <img class="box-aula" src="img/miniaturaangular.jpg" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=BXqUH86F-kA" target="blank">
+                            <img class="box-aula" src="img/miniaturajs.jpg" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=ErjWNvP6mko" target="blank">
+                            <img class="box-aula" src="img/miniaturareact.jpg" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=X7WMSfEfZGg" target="blank">
+                            <img class="box-aula" src="img/miniaturarpi.jpg" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=lCemyQeSCV8" target="blank">
+                            <img class="box-aula" src="img/miniaturatype.jpg" alt="" srcset="">
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section id="podcasts">
+            <div class="carrossel-aulas">
+                <h4>Podcasts em alta</h4>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <a href="https://youtube.com/watch?v=MUAAqgObHuI" target="blank">
+                            <img class="box-aula" src="img/podcasts/podcast1.jpg" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=H7rDpQbKRVw" target="blank">
+                            <img class="box-aula" src="img/podcasts/podcast2.jpg" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://youtube.com/watch?v=wNgjZXBPy8E" target="blank">
+                            <img class="box-aula" src="img/podcasts/podcast3.jpg" alt="" srcset=""> 
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=ewNg4vPKfpo" target="blank">
+                            <img class="box-aula" src="img/podcasts/podcast4.jpg" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=roc-5euwalY" target="blank">
+                            <img class="box-aula" src="img/podcasts/podcast5.jpg" alt="" srcset="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="dicas">
+            <div class="carrossel-aulas">
+                <h4>Dicas valiosas</h4>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=aJR7f45dBNs" target="blank">
+                            <img class="box-aula" src="img/dicas/dicas1.jpg" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=kZcc4bA647M" target="blank">
+                            <img class="box-aula" src="img/dicas/dicas2.jpg" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=jZFfx6buAPg" target="blank">
+                            <img class="box-aula" src="img/dicas/dicas3.jpg" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=y4ltLH9iK8E" target="blank">
+                            <img class="box-aula" src="img/dicas/dicas4.jpg" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://youtube.com/watch?v=elIl48sZ3rA" target="blank">
+                            <img class="box-aula" src="img/dicas/dicas5.jpg" alt="" srcset="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            CodeFlix - Cássio 2022
+        </footer>
 
         <script src="https://kit.fontawesome.com/b1276a9da3.js" crossorigin="anonymous"></script>
         <script src="js/owl/jquery.min.js"></script>

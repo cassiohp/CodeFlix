@@ -25,15 +25,14 @@ header .container{
 }
 
 header .logo{
-    color: var(--azul);
-    font-family: 'Arial Black';
-    font-size: 40px;
+    margin-top: 8px;
 }
 
 header nav a{
     text-decoration: none; 
     color: #AAA;
     margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header nav a:hover{
@@ -44,17 +43,21 @@ header nav a:hover{
 
 .aula-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('/img/gua-python1.jpg');
-    height: 400px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('/img/miniaturareact2.jpg');
+    height: 580px;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .aula-principal .descricao{
+    margin-top: 10px;
     margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(244, 243, 243);
 }
 
 .titulo{
@@ -63,8 +66,9 @@ header nav a:hover{
     margin-top: 30px;
 }
 
+
 .botao{
-    background-color: rgba(0,0,0,.50);
+    background-color: rgba(0,0,0,.60);
     border: none;
     color: white;
     padding: 15px 30px;
@@ -72,8 +76,13 @@ header nav a:hover{
     margin-top: 5px;
     font-size: 12px;
     cursor: pointer;
-    border-radius: 2px 2px;
+    border-radius: 3%;
     transition: .3s ease all;
+}
+
+.botao a{
+    text-decoration: none;
+    color: white;
 }
 
 .botao:hover{
@@ -81,8 +90,20 @@ header nav a:hover{
     color: black;
 }
 
+.botao:hover a{
+    color: black;
+}
+
+
 .botao i{
     margin-right: 8px;
+}
+
+
+
+.botao a:hover{
+    text-decoration: none;
+    color: black;
 }
 
 .container{
@@ -98,4 +119,30 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+    border-radius: 3%;
 }
+
+.item:hover{
+    background-color: #369DFF;
+    size-adjust: 40%;
+}
+
+.carrossel-aulas{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.carrossel-aulas h4{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(244, 243, 243);
+    font-weight: inherit;
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    padding: 0.5%;
+    background-color: #47464634;
+}
+

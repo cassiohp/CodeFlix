@@ -1,4 +1,4 @@
-## CodeFlix v0.1
+## CodeFlix v0.2
 
 CodeFlix é a ideia de um site para ajudar desenvolvedores iniciantes / intermediários a conseguirem encontrar uma forma simplificada de aprender uma nova linguagem.
 
@@ -19,3 +19,7 @@ A partir deste projeto consegui aprimorar:
 #### Planos para o futuro
 
 Tenho planos para deixar o código mais robusto, trazendo uma página web mais completa, com animações ao passar pelo do carrossel, a adição de um player de vídeo e uma conexão com banco de dados para autenticação de usuários.
+
+#### Deploy do Site
+
+https://chp-codeflix.herokuapp.com
